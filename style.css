@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header footer {
+  flex: 0 0 100%;
+   border: 1px solid black;
+}
+
+nav {
+  flex: 0 0 200px;
+   border: 1px solid black;
+}
+
+article {
+  flex: 1 1 auto;
+  border: 1px solid black;
+}
+
+form div {
+  display: flex;
+}
+
+form div label {
+  flex: 0 0 100px;
+  text-align: right;
+  padding-right: 5px;
+}
